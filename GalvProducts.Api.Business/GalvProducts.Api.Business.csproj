@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GalvProducts.Api.Business.Contracts\GalvProducts.Api.Business.Contracts.csproj" />
+    <ProjectReference Include="..\GalvProducts.Api.Data.Contracts\GalvProducts.Api.Data.Contracts.csproj" />
+    <ProjectReference Include="..\GalvProducts.Api.Data\GalvProducts.Api.Data.csproj" />
+    <ProjectReference Include="..\GalvProducts.Api.Services.Contracts\GalvProducts.Api.Services.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
